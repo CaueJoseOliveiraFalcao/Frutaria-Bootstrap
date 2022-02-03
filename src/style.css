@@ -9,10 +9,35 @@
     font-family: 'Pacifico', cursive;
 }
 
-.barinha-nav{
-    background:url('./img/tomate-background-1-23109002.jpg');
-    background-size: 190px;
-    color:white;
-    border-radius:8px;
+@media (max-width:426px) {
+    .carrosel-tamanho-media{
+        height: 20px!important;
+    }
+
+    .imagem-carrosel{
+        height: 400px;
+    }
 }
 
+.cor-titulo{
+    color: darkred;
+}
+
+.botao-titulo{
+    background-color: darkred;
+    padding: 0.5rem;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.botao-titulo:hover{
+    background-color: #DE200B;
+    color: white;
+}
+
+.borda-card{
+    border-color: darkred!important;
+    border-style: solid!important;
+    border-width: 0.2rem!important;
+
+}
