@@ -9,19 +9,6 @@
     font-family: 'Pacifico', cursive;
 }
 
-@media (max-width:426px) {
-    .carrosel-tamanho-media{
-        height: 20px!important;
-    }
-
-    .imagem-carrosel{
-        height: 400px;
-    }
-}
-
-.cor-titulo{
-    color: darkred;
-}
 
 .botao-titulo{
     background-color: darkred;
@@ -40,4 +27,35 @@
     border-style: solid!important;
     border-width: 0.2rem!important;
 
+}
+.card-divs{
+    background-color:#ecebec;
+}
+
+.card-img-cover{
+    object-fit: cover;
+    max-height: 120px;
+}
+@media (max-width:426px) {
+    .carrosel-tamanho-media{
+        height: 20px!important;
+    }
+
+    .imagem-carrosel{
+        max-height: 400px;
+    }
+}
+@media (max-width:728px){
+    .container, .container-sm {
+    max-width: unset!important;
+    }
+
+    .cards-receitas{
+       display: grid!important;
+       justify-content: center!important;
+       justify-self: center!important;
+    }
+}
+.cor-titulo{
+    color: darkred;
 }
