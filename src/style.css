@@ -31,10 +31,12 @@
 .card-divs{
     background-color:#ecebec;
 }
-
+.color-footer{
+    background-color:#bebebe;
+}
 .card-img-cover{
     object-fit: cover;
-    max-height: 120px;
+    max-height: 160px;
 }
 @media (max-width:426px) {
     .carrosel-tamanho-media{
